@@ -3,3 +3,4 @@ node_modules/
 vscode/git
 .idea/
 .DS_Store
+note.node_modules/
