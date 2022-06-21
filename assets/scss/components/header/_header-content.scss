@@ -4,6 +4,7 @@
 
 .header-content {
     position: relative;
+    // С помощью индекса выносим наш контент на передний край
     z-index: 1;
     width: 100%;
     
@@ -16,9 +17,12 @@
     text-align: center;
 }
 
+// кнопки
 &__actions {
     display: flex;
     justify-content: center;
+    
+    // остпуп между кнопками
     gap: $gap;
 }
 }

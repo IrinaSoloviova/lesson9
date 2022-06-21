@@ -8,16 +8,14 @@
     top: 0;
     left: 0;
     right: 0;
-   
-
+       
     &__container {
     @extend %container; 
     
-    display: grid;
-    // align-items: center;
-    // gap: $gap;
+   display: grid;
    grid-template-columns: auto 1fr;
    align-items: center;
+//    Чтобы элементы не слипались друг с другом-отступ
    gap: $gap;
     }
 }
