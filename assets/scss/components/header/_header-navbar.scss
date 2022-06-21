@@ -6,7 +6,7 @@
     }
     &__list {
          display: grid;
-         justify-content: end  
+         justify-content: end;
          gap: $gap;    
          grid-template-columns: repeat(auto-fit, minmax( 50px, max-contant ));
         // list-style: none;

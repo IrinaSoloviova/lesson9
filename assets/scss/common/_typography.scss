@@ -1,6 +1,5 @@
 @use "../presets" as *;
 @use "../mixins" as *;
-
 *,
 *::before,
 *::after {
@@ -15,7 +14,7 @@ a {
 html {
    color: $color-gray;
    font-family: $font-main; 
-   font-size: $fa-font-size-base;
+   font-size: $font-size;
    overflow-y: scroll;
 }
 

@@ -1,8 +1,9 @@
- @use "presets/variables";
+@use "../../libs/normalize.css/normalize.scss";
+
+// @use "../../libs/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@use "presets/variables";
  @use "presets/skin";
 
-@use "../../libs/normalize.css/normalize.scss";  
-  
  @use "common/typography";
  @use "common/classes";
 
