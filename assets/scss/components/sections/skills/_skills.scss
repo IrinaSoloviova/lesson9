@@ -1,6 +1,11 @@
+@use "../../../presets" as *; 
+@use "../../../mixins" as *; 
+
+
 .skills {
     &__container {
-        
+        display: grid;
+        gap: $gap-sm;
     }
     &__actions {
 
