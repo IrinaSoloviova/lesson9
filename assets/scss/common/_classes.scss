@@ -22,11 +22,13 @@
     }
 }
 
-.btn--light{
+.btn--light {
 max-width: 250px;
 background-color: rgba($color-light,0.1);
 }
-.btn--primary{
+.btn--primary {
 max-width: 350px;
+height: 60px;
 background-color: rgba($color-primary,0.1);
+border: 2px solid rgba($color-primary);
 }

@@ -2,6 +2,8 @@
 @use "../../../mixins" as *; 
 
 .skills {
+    padding: $gap-sm;
+
     &__container {
         display: grid;
         gap: $gap-sm;
@@ -14,11 +16,15 @@
         // 3 вариант через auto rows
         grid-auto-rows: calc(33.33vh - #($local-galp));
         $local-galp: calc(40px / 3);
+        margin-bottom: $gap;
         
-        padding: $gap-sm;
+        
     }
 
     &__actions {
-
+        display: flex;
+        justify-content: center;
+        margin-top: gap;
+       margin-bottom: $galp-lg;
     }
 }
