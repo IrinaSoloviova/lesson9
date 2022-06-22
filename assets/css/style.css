@@ -490,3 +490,7 @@ a {
           justify-content: center;
   gap: 20px;
 }
+
+.skill-item {
+  background-color: red;
+}
