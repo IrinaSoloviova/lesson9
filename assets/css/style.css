@@ -1,4 +1,4 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
 /* Document
    ========================================================================== */
 /**
@@ -357,6 +357,8 @@ a {
   color: #ffffff;
 }
 
+
+
 .btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -499,7 +501,7 @@ a {
   padding: 10px;
 }
 .skill-item {
-  background-color: red;
+  background-color: #2d3651;
   min-height: 33vh;
 }
 
@@ -537,4 +539,22 @@ a {
 
 .skill-item:nth-of-type(9) {
   grid-area: a9;
+}
+
+@media (max-width: 992px) {
+ h1 { 
+  font-size: 2.5rem;
+}
+.header-content__title {
+  margin: 0 0 43px;
+}
+}
+
+@media (max-width: 768px) {
+h1 { 
+  font-size: 1.85rem;
+}
+.header-content__title {
+  margin: 0 0 33px;
+}
 }
