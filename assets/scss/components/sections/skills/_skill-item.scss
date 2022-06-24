@@ -11,8 +11,13 @@
         margin: 0; 
         @include abs-position;
         z-index: 1; 
-        font-size: 125rem;
-        letter-spacing: 0.1em; 
+        letter-spacing: 0.1em;
+        @include md-min {
+            font-size: 125rem;
+        }
+        @include md {
+            font-size: 1.125rem;
+        } 
       
      }
 
