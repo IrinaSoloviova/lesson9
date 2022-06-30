@@ -4,41 +4,45 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
-    color: $color-light;
+  text-decoration: none;
+
+  color: $color-light;
 }
 
 html {
-    color: $color-gray;
-    font-family: $font-main;
-    font-size: $font-size;
-    overflow-y: scroll;
+  overflow-y: scroll;
+
+  color: $color-gray;
+
+  font-family: $font-main;
+  font-size: $font-size;
 }
 
 h1 {
-    font-size: 3.75rem;
-    letter-spacing: 0.08em;
-    font-weight: 300;
-    font-family: $font-header;
-    line-height: 1.2em;
+  letter-spacing: 0.08em;
 
-    @include lg-min {
-        font-size: 2.5rem;
-    }
+  font-family: $font-header;
+  font-size: 3.75rem;
+  font-weight: 300;
+  line-height: 1.2em;
 
-    @include lg-md {
-        font-size: 2.5rem;
-    }
-    @include md {
-        font-size: 1.85rem;
-    }
+  @include lg-min {
+    font-size: 2.5rem;
+  }
+  @include lg-md {
+    font-size: 2.5rem;
+  }
+  @include md {
+    font-size: 1.85rem;
+  }
 }
 
 a {
-    text-decoration: none;
-    color: $color-light;
+  text-decoration: none;
+
+  color: $color-light;
 }

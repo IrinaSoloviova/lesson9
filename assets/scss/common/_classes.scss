@@ -2,54 +2,59 @@
 @use "../mixins" as *;
 
 .btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-     min-width: 250px;
-     height: 60px;
-    // border: 2px solid $color-light;
-    padding: 0.5em 1em;
-    // background-color: rgba ($color-light, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    font-size: 1.125rem;
-    letter-spacing: 0.1em;
+  min-width: 250px;
+  height: 60px;
+  // border: 2px solid $color-light;
+  padding: 0.5em 1em;
 
-    transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  letter-spacing: 0.1em;
+  // background-color: rgba ($color-light, 0.1);
 
-    &:hover,
-    &:forus {
-       background-color: $color-accent;
-    }
+  font-size: 1.125rem;
+
+  &:hover,
+  &:forus {
+    background-color: $color-accent;
+  }
 }
 
 .btn--light {
-    font-size: 1.125rem;
-    @include lg-min {
-max-width: 250px;
-height: 60px; 
-}
-@include lg-md {
-    max-width: 200px;
-    height: 50px;    
-}
-@include md {
-    max-width: 170px;
-    height: 40px;    
-}
+  border: 2px solid $color-light;
+  background-color: rgba($color-light,0.1);
 
-background-color: rgba($color-light,0.1);
-border: 2px solid $color-light;
+  font-size: 1.125rem;
+
+  @include lg-min {
+    max-width: 250px;
+    height: 60px;
+  }
+  @include lg-md {
+    max-width: 200px;
+    height: 50px;
+  }
+  @include md {
+    max-width: 170px;
+    height: 40px;
+  }
 }
 
 .btn--primary {
-    font-size: 1.125rem;
-    height: 60px;
-@include sm-min {
+  height: 60px;
+
+  border: 2px solid rgba($color-primary);
+  background-color: rgba($color-primary,0.8);
+
+  font-size: 1.125rem;
+
+  @include sm-min {
     max-width: 350px;
-   }
-@include sm {
+  }
+  @include sm {
     width: 100%;
-    }
-background-color: rgba($color-primary,0.8);
-border: 2px solid rgba($color-primary);
+  }
 }
